@@ -1,5 +1,63 @@
 .calculator {
-    height: 600px;
+    height: 575px;
     width: 400px;
-    background-color: green;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: right;
+    margin: 10px;
+}
+
+.display_upper {
+    display: flex;
+    height:20px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: right;
+}
+
+.display_lower {
+    display: flex;
+    height: 30px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: right;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: space-between;
+}
+
+.button {
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+}
+
+.equal {
+    height: 90px;
+    width: 190px;
+    margin: 5px;
+}
+
+
+.spacer {
+    height: 100px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    flex:none;
 }
